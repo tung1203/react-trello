@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +36,99 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0079bf;
+  color: #172b4d;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrap__card {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  background: #ebecf0;
+  padding: 1rem;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.card__content-list {
+  background: #fff;
+  border-radius: 4px;
+  margin: .5rem 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.card__content-list:hover {
+  background: #ffffff9e;
+}
+
+.card__content-delete {
+  border: none;
+  background: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.card__content-delete:hover {
+  background-color: rgba(9, 30, 66, .08);
+}
+
+.card__handler {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__handler-add {
+  background: none;
+  border: none;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.card__handler-add:hover {
+  background-color: rgba(9, 30, 66, .08);
+}
+
+.blue-background-class {
+  background: #0079bf;
+  color: #fff;
+}
+.wrap__add-cart{
+  display: flex;
+}
+.wrap__add-cart input{
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+.add-card {
+  background: none;
+  border: none;
+  padding: .5rem;
+  background-color: #ebecf0;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.add-card:hover {
+  background-color: #fff;
 }
